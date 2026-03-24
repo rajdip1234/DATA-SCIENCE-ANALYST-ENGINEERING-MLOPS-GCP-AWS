@@ -14,7 +14,6 @@ This repository contains multiple end-to-end projects covering:
 - Python (Pandas, NumPy, Scikit-learn,Pytorch,Tensorflow,XGBoost,LightGBM and so on)
 - SQL
 - Jupyter Notebook
-- Git & GitHub Actions
 - YAML / JSON configs
 - Data formats: CSV, Parquet, NPY
 
