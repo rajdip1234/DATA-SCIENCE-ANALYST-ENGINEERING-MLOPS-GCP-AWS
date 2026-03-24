@@ -11,12 +11,13 @@ This repository contains multiple end-to-end projects covering:
 
 ## 🧰 Tech Stack
 
-- Python (Pandas, NumPy, Scikit-learn,Pytorch,Tensorflow,XGBoost,LightGBM and so on)
+- Python (Pandas, NumPy, Scikit-learn,Pytorch,Tensorflow,XGBoost,LightGBM,PySpark and so on)
 - SQL
 - Jupyter Notebook
 - YAML / JSON configs
-- Data formats: CSV, Parquet, NPY
-
+- Data formats: CSV, Parquet, NPY, PKL
+-Apache Spark
+-So on
 ---
 
 ## 📌 Highlights
