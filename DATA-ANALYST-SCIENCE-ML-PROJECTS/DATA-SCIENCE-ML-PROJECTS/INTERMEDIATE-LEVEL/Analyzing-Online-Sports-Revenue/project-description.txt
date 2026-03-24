@@ -1,0 +1,26 @@
+Analyze product data for an online sports retail company to optimize revenue.
+
+Project Description
+Sports clothing is a booming sector!
+
+In this project you will use your Python skills to analyze product data for an online sports retail company.
+
+You will work with a variety of data types to answer their questions about revenue, ratings, and product descriptions.
+
+You will use techniques such as aggregation, cleaning, and labeling to answer key questions that will inform how the company can optimize their revenue!
+
+Project Instructions
+To complete the project, you will need to merge the datasets, drop null values, and answer the questions below.
+
+What is the volume of products and average revenue for Adidas and Nike products based on listing price quartiles?
+
+Label products priced up to quartile one as "Budget", quartile two as "Average", quartile three as "Expensive", and quartile four as "Elite".
+Store as a pandas DataFrame called adidas_vs_nike containing columns: "brand", "price_label", "num_products", and "mean_revenue". All numeric values should be rounded 
+to two decimal places.
+
+Do any differences exist between the word count of a product's description and its mean rating?
+
+Split product description length into bins of 100-character intervals and calculate the average rating and total number of reviews.
+Store the results as a pandas DataFrame called description_lengths containing columns: "description_length", "mean_rating", "total_reviews". Again, round numeric 
+values to two decimal places.
+

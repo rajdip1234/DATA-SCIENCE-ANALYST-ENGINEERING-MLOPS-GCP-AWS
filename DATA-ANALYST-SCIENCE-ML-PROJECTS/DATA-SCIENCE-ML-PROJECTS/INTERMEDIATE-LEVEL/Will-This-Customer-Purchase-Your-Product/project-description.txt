@@ -1,0 +1,21 @@
+Analyze online shopping habits: returning vs. new customers using statistics & probability techniques!
+
+Project Description
+Discover how new and returning customers shop online. Using statistics and probability techniques, you will identify the differences between their browsing habits 
+and shopping patterns. Your insights will help the marketing team understand customer engagement on the website.
+
+Project Instructions
+The marketing team asked you to analyze the behavior of online customers during November and December, the busiest months for shoppers.
+
+What are the purchase rates for online shopping sessions by customer type for November and December? Store the result in a dictionary called purchase_rates in the 
+format below using the exact names for keys.
+purchase_rates = {"Returning_Customer": 0.254, "New_Customer": 0.276}
+
+What is the strongest correlation in total time spent among page types by returning customers in November and December? Store the result in a dictionary called 
+top_correlation in the format below using the exact names for keys.
+top_correlation = {"pair": (x_duration, y_duration), "correlation": 0.345}
+
+A new campaign for the returning customers will boost the purchase rate by 15%. What is the likelihood of achieving at least 100 sales out of 500 online shopping 
+sessions for the returning customers? Store the result in a variable called prob_at_least_100_sales. Optional: plot a binomial probability distribution chart to 
+visualize your chances.
+

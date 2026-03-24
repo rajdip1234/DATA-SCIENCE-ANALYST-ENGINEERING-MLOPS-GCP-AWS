@@ -1,0 +1,14 @@
+Analyze subscription data for a SaaS company to identify what drives customer subscription renewals.
+
+
+Project Description
+A SaaS company seeks to uncover what drives its clients to renew their subscriptions. Combine and analyze the company's data to provide insights into its customer 
+behavior and trends.
+
+Project Instructions
+A SaaS company seeks to uncover what drives its clients to renew their subscriptions. They've asked you to answer the following questions:
+
+How many total Fintech and Crypto clients does the company have? Store as an integer variable called total_fintech_crypto_clients.
+Which industry has the highest renewal rate? Store as a string variable called top_industry.
+For clients that renewed their subscriptions, what was the average inflation rate when their subscriptions were renewed? Store as a float variable called 
+average_inflation_for_renewals.

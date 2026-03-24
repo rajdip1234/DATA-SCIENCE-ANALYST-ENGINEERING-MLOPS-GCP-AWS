@@ -1,0 +1,19 @@
+Train a reward model based on the trl library.
+
+Project Description
+In this project, you’ll train a reward model to evaluate and rank AI-generated explanations for RLHF. You’ll work with human feedback datasets and train an OpenAI-GPT-
+based model. This will enable you to assess and improve AI-generated educational responses.
+
+Project Instructions
+In this project, you’ll build a reward model that evaluates responses based on human preferences. Your tasks include:
+
+Configure the tokenizer using AutoTokenizer from MODEL_NAME, adding "[PAD]"" and defining a chat template.
+
+Implement a function to tokenize the input, ensuring truncation and padding to a max length of 4096 tokens, then split tokenized data into training and evaluation 
+sets, saving them as train_data and eval_data.
+
+Load a model with AutoModelForSequenceClassification, resize token embeddings, and set num_labels=1.
+
+Configure training with RewardConfig, setting parameters like output_dir, max_length, and num_train_epochs. Then, train the model with RewardTrainer, using the 
+configured model, tokenizer and data.
+

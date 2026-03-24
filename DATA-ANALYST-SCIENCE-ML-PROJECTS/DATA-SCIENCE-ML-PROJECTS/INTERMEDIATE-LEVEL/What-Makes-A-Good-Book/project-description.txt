@@ -1,0 +1,14 @@
+Generate features from text and numeric variables to predict the popularity of books.
+
+Project Description
+Extracting value from a variety of data formats is a crucial skill for data scientists to maximize the performance of their machine learning models.
+
+Your expertise has been requested to help an online bookstore in predicting what books will be popular! You'll apply skills across the machine learning workflow, 
+performing EDA, converting data types, transforming features, manipulating data, and tuning a model to maximize its accuracy in predicting popular books.
+
+Project Instructions
+Help the online bookstore identify their bestsellers.
+
+Create a binary classification model to predict whether a book is rated as "Popular" or "Unpopular", achieving an accuracy score of over 70%.
+The final output should be a variable called model_accuracy with a value of over 0.7.
+

@@ -1,0 +1,29 @@
+Building an image processing pipeline for data augmentation.
+
+Project Description
+Use Python to build an image-processing pipeline for an object-detection model!
+
+Create a function to generate a dataset of images that can be used to train an animal-detection model. To prepare this dataset you will transform images of 
+animals using various functions from the Scikit-Image package.
+
+Project Instructions
+Help the team process their dataset of animal images in preparation for modeling.
+
+Write a function called image_processing capable of importing and transforming multiple images, and outputting a transformed dataset of images in the form of a list. 
+It should import images and resize, rotate, and equalize them (i.e. Contrast Limited Adaptive Histogram Equalization) in that order. The function will have the 
+following parameters:
+
+file_names: Accepts a list of strings, each a path to an image. No default value.
+
+size: Accepts a tuple for the target resize shape, defaulting to (250,250).
+
+rotation_angle: Accepts a numeric input for rotation degree, defaulting to 0.
+
+equalization_clip_limit: Accept a number (0-1) for the equalization clip limit, default to None. If None, skip equalization.
+
+Apply the image_processing function to the data and save the result as tranformed_images.
+
+Use Matplotlib to visualize the images and verify the transformations.
+
+
+

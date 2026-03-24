@@ -1,0 +1,18 @@
+Manipulate and plot time series data from Google Trends to analyze changes in search interest over time.
+
+Project Description:
+Explore time series data by analyzing and comparing the popularity trends of three prominent AI tools: ChatGPT, Gemini, and Microsoft Copilot. 
+The project involves processing and visualizing the interest over time data to identify patterns, trends, and insights.
+
+Project-Instruction:
+Your goal is to extract meaningful insights from the search data by answering the following questions.
+
+Which AI tool has shown the most consistent growth in interest over the observed period (the full dataset)? Save the name of the tool as most_consistent_tool of type 
+Data type: string.
+
+Create a visualization showing the interest levels of ChatGPT, Gemini, and Microsoft Copilot over time. Around which month and year does ChatGPT experience its 
+largest decline in interest? Save as gpt_dip of type string in the format "Month YYYY".
+
+Explore the seasonality in the data by breaking it down into monthly averages. What month had the highest average interest across all tools? Save the month as 
+best_month as type string.
+

@@ -1,0 +1,62 @@
+Implement retrieval augmented generation (RAG) with LangChain to create a chatbot for answering questions about technical documentation.
+
+Project Description
+You'll create a context-aware chatbot by integrating a car manual with an LLM using LangChain and Retrieval Augmented Generation (RAG). The goal is to create a car 
+assistant that can explain dashboard warnings and recommend actions while driving. Say goodbye to boring manuals!
+
+The car manual HTML document has been loaded for you as car_docs. Using Retrieval Augmented Generation (RAG), answer the user query:
+
+"The Gasoline Particular Filter Full warning has appeared. What does this mean and what should I do about it?"
+
+Store the answer to the user query in the variable answer.
+
+You're working for a well-known car manufacturer who is looking at implementing LLMs into vehicles to provide guidance to drivers. You've been asked to experiment with integrating car manuals with an LLM to create a context-aware chatbot. They hope that this context-aware LLM can be hooked up to a text-to-speech software to read the model's response aloud.
+
+As a proof of concept, you'll integrate several pages from a car manual that contains car warning messages and their meanings and recommended actions. This particular 
+manual, stored as an HTML file, mg-zs-warning-messages.html, is from an MG ZS, a compact SUV. Armed with your newfound knowledge of LLMs and LangChain, you'll 
+implement Retrieval Augmented Generation (RAG) to create the context-aware chatbot.
+
+Before you start
+In order to complete the project you will need to create a developer account with OpenAI and store your API key as a secure environment variable. 
+Instructions for these steps are outlined below.
+
+Create a developer account with OpenAI
+Go to the API signup page.
+
+Create your account (you'll need to provide your email address and your phone number).
+
+Go to the API keys page.
+
+Create a new secret key.
+
+Image from the file system
+Take a copy of it. (If you lose it, delete the key and create a new one.)
+Add a payment method
+OpenAI sometimes provides free credits for the API, but this can vary depending on geography. You may need to add debit/credit card details.
+
+This project should cost less than 1 US cents with GPT-3.5-Turbo (but if you rerun tasks, you will be charged every time).
+
+Go to the Payment Methods page.
+
+Click Add payment method.
+
+Image from the file system
+Fill in your card details.
+Add an environmental variable with your OpenAI key
+In the workbook, click on "Environment," in the top toolbar and select "Environment variables".
+
+Click "Add" to add environment variables.
+
+In the "Name" field, type "OPENAI_API_KEY". In the "Value" field, paste in your secret key.
+
+Image from the file system
+Click "Create", then you'll see the following pop-up window. Click "Connect," then wait 5-10 seconds for the kernel to restart, or restart it manually in the Run menu.
+Image from the file system
+Update to Python 3.10
+Due to how frequently the libraries required for this project are updated, you'll need to update your environment to Python 3.10:
+
+In the workbook, click on "Environment," in the top toolbar and select "Session details".
+
+In the workbook language dropdown, select "Python 3.10".
+
+Click "Confirm" and hit "Done" once the session is ready.

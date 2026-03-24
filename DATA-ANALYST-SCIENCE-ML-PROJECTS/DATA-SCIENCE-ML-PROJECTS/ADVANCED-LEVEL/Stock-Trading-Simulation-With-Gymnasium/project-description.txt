@@ -1,0 +1,23 @@
+Train a simple reinforcement learning agent in stock trading simulation.
+Project Description
+Financial markets are constantly changing and many companies now leverage AI in their attempts to beat the market. Have a try at it yourself as you train a 
+simple reinforcement learning agent in Python using Gymnasium. You will then explore the decisions that the agent made and analyze its performance. 
+Perfect for learners interested in finance and machine learning.
+
+Project Instructions
+Create and train a Proximal Policy Optimization (PPO) model using the provided environment. Train this model for a total_timesteps of 10000. Implement the trading 
+logic to make buy, sell, or hold decisions based on the model's predictions.
+
+Adjust the cash balance and shares_held based on the action taken (buy/sell) and allow the model to trade a certain percentage of its balance each step.
+Monitor balance changes and store the history in balance_history for visualization.
+If shares are still held at the end, sell them to update the final balance.
+By the end of this project you should have two charts that display the performance of the model.
+
+Chart 1 should show the stock price with buy/sell actions overlaid on the price.
+Chart 2 should show the cash balance over time.
+Questions:
+
+What do you think about the performance of this model?
+Why do you think it has performed the way it has?
+How could the data we have selected impact the performance of the model?
+Answers can be found in the solution.

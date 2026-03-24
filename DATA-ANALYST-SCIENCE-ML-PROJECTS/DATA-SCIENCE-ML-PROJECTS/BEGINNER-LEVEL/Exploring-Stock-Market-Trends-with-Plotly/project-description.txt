@@ -1,0 +1,15 @@
+Build interactive stock charts with Plotly and uncover financial trends in the fast food industry.
+
+Project Description
+Turn raw financial data into powerful insights by building interactive stock charts with Plotly. Develop essential data visualization skills as you analyze market 
+data from fast food giants like McDonald's and Starbucks while creating visualizations that reveal industry trends and investment opportunities.
+
+Project Instructions
+Create an interactive stock price visualization using Plotly to help clients analyze fast food industry trends.
+
+Build an interactive line chart and save it as fig. Include 4 time-range buttons (1M, 6M, 1Y, 3Y) to allow users to filter data by different periods.
+
+Add two dropdown menus: the first should allow selection of specific companies using the company_ticker column, and the second should enable choosing which price 
+metric to display (such as open, close, high, low, etc.).
+
+Apply styling, hover effects, and annotations of your choice to create a professional appearance. ⚠️ This styling component will not be tested.

@@ -1,0 +1,85 @@
+# -------------------------
+# OS / System
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# Node (if any JS used)
+# -------------------------
+node_modules/
+
+# -------------------------
+# Logs / temp
+# -------------------------
+#.log
+*.tmp
+*.temp
+.cache/
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# Large / unnecessary archives
+# -------------------------
+*.zip
+*.rar
+*.7z
+*.tar
+#*.gz
+
+# -------------------------
+# Ignore system generated unknown files
+# -------------------------
+#HISTORY
+#RUNNAME
+#NAME
+#TYPE
+
+# -------------------------
+# Optional: ignore binary dumps (keep only if needed)
+# -------------------------
+#*.bin
+#*.data
+
+# -------------------------
+# KEEP THESE (DO NOT IGNORE)
+# -------------------------
+# .ipynb
+# .py
+# .sql
+# .txt
+# .csv
+# .xlsx
+# .json
+# .yml
+# .md
+# .png / .jpg / .jpeg / .gif
+# .wav / .mp3
+# .npy / .npz / .parquet / .pkl

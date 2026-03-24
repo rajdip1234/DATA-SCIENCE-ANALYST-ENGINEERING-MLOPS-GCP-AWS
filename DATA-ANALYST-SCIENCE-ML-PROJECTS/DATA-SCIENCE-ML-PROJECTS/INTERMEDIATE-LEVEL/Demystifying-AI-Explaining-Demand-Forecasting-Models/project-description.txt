@@ -1,0 +1,72 @@
+Project Description
+Learn how to build and explain AI models that help businesses optimize inventory, marketing, and revenue. Explain next month's total sales for different product 
+categories in an online store.
+
+
+Project Instructions
+Explore model, knn_model, X_test, y_test, and use Explainable AI (XAI) to answer the following questions:
+
+Identify an XAI method that assigns feature attributions using game theory principles and save the library name as a str variable, xai. Import this library to 
+complete the remaining tasks.
+
+Compute feature importance based on the model's predictions on X_test. Extract the top five features and store them as a DataFrame in top_feats.
+
+Compute and extract the top five features for the knn_model (use .sample(50, random_state=42) for faster running) and evaluate the consistency across both models 
+(model, knn_model). Save the consistency as a variable consistency, rounded to two decimal places and of type float.
+
+The marketing team wants to know if your model interpretations are stable and reliable. Save your response ("yes", "no") to reliable.
+
+Bonus: visualize your results along the way (this part won't be tested).
+
+E-commerce businesses rely on explainable artificial intelligence (AI) models to anticipate customer needs, improve inventory planning, personalize marketing 
+campaigns, and most importantly, explain the results to stakeholders. Understanding what factors drive purchases in a specific product category, such as home decor, 
+can help businesses tailor their strategies to maximize sales. If a company knows that customers who historically spend more on children's accessories would also 
+spend more on home decor items moving forward, they could target these customers with promotional ads on home decor items and give bundling discounts to foster this 
+pattern.
+
+A major online retailer has enlisted your help for this very task. You already have two forecast models (model.pkl, knn_model.pkl) and now you need to explain the 
+results to stakeholders so they can make key business decisions about marketing and budgets.
+
+Data
+Each row in X_train represents a snapshot of a customer's features for a specific month, and y_train is the customer's sales for the next month for the 'home_decor' 
+product category. The data is a modified version of the original data that is publicly available on Kaggle.
+
+X_train/X_test.csv
+Column	Description
+logsales	Logarithm of (customer sales+1) (+1 to handle 0 sales)
+lag1	The log of sales from 1 month ago
+lag2	The log of sales from 2 months ago
+sma_2m	Average log sales over the last 2 months (simple moving average)
+sma_4m	Average log sales over the last 4 months (simple moving average)
+sma_6m	Average log sales over the last 5 months (simple moving average)
+months_since_first	Months since first purchase
+children_s_accessories
+colourful_essentials
+home_decor
+home_storage
+quirky_stationery
+soft_furnishings
+toys_games
+...
+Category-specific logarithm of (customer sales+1)
+sma_2m__birthday_gifts
+sma_4m__birthday_gifts
+sma_3m__birthday_gifts
+2, 4, 6-month average log sales per category (simple moving average)
+y_train/y_test.csv
+'nextmonth__home_decor': Logarithm of (customer sales+1) for the home_decor product category in the next month for prediction
+Model
+This forecast model has been trained on the X_train, y_train provided.
+
+model.pkl
+Fitted sklearn.ensemble.RandomForestRegressor on X_train, y_train
+knn_model.pkl
+Fitted sklearn.neighbors.KNeighborsRegressor on X_train, y_train
+Update to Python 3.10
+Due to how frequently the libraries required for this project are updated, you'll need to update your environment to Python 3.10:
+
+In the workbook, click on "Environment," in the top toolbar and select "Session details".
+
+In the workbook language dropdown, select "Python 3.10".
+
+Click "Confirm" and hit "Done" once the session is ready.

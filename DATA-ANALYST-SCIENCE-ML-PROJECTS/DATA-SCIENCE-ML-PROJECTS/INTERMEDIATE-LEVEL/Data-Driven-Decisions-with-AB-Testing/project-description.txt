@@ -1,0 +1,23 @@
+Step into a data scientist's role and learn how to make product decisions with A/B testing in Python!
+
+Project Description
+A/B testing is essential for data-driven product decisions.
+
+In this project, you will act as a data scientist at an online travel agency (OTA) testing a new search ranking system aimed at improving conversion. Using Python, 
+you will analyze the A/B test results and decide whether the new system should be rolled out.
+
+This hands-on project will sharpen your skills in experiment evaluation, statistical testing, and making product recommendations grounded in data.
+
+Project Instructions
+Prepare the dataset using "sessions_data.csv" and "users_data.csv" and analyze the experiment results to make a decision to roll out the new version of the search 
+ranking system. The confidence level and significance level (alpha = 0.1) are predefined in the workbook.
+
+Join "sessions_data.csv" and "users_data.csv" into a new dataframe sessions_x_users and compute the primary metric conversion (1 if booking_timestamp is not missing, 
+0 otherwise).
+Conduct a sanity check for Sample Ratio Mismatch (SRM) between control and variant and save the p-value as srm_chi2_pval.
+Check the statistical significance of the experiment effect on primary (conversion) and guardrail (time_to_booking) metrics. Save the corresponding p-values as 
+pval_primary and pval_guardrail.
+Calculate the effect sizes for both metrics as the difference between means in variant and control divided by mean in control. Save the corresponding effect sizes as 
+effect_size_primary and effect_size_guardrail.
+Make the decision to go full on or pull back as per the full on criteria specified in the workbook. Save the result as decision_full_on (yes if full on, no if pull 
+back).

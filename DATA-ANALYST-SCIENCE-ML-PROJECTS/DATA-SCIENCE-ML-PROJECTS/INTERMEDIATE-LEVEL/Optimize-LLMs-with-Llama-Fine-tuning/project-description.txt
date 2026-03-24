@@ -1,0 +1,13 @@
+Build an AI-powered airline chat assistant to generate custom responses and identify user intent.
+
+Project Description
+Fine-tune a Llama model to act as a travel chatbot. Train the model to generate both user intents and chatbot responses for realistic travel-related conversations.
+
+Project Instructions
+Your goal is to build an intelligent travel assistant system by fine-tuning a Llama model.
+
+Initialize the Llama model TinyLlama/TinyLlama-1.1B-Chat-v0.1. Load it in a variable called model.
+Initialize the LoraConfig and save it in a variable called lora_config.
+Initialize the SFTTrainer for the model, LoraConfig and dataset. Save this to a variable called trainer.
+Kickstart the fine-tuning process. After fine-tuning is complete, have your model generate a response to a question. Save the response to a variable called 
+model_response.

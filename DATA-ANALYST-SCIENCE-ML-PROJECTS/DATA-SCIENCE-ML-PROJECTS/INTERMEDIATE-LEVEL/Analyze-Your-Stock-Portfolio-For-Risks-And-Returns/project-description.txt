@@ -1,0 +1,17 @@
+Use mean-variance optimization to find optimal portfolio weights and then check how well they would have performed
+
+Project Description
+When deciding on asset allocation, you can use modern portfolio theory (MPT). MPT emphasizes that you should consider both the expected return and the associated 
+risk (variance) when constructing portfolios.
+
+In this project, you will find and evaluate a set of portfolios using mean-variance optimization using libraries such as PyPortfolioOpt.
+
+Project Instructions
+Use the faang_stocks.csv dataset to complete the following analysis:
+
+What are the expected returns and the annualized Sharpe ratio of an equally-weighted portfolio? Assume the risk-free rate is 0% and store your answers as a float 
+variables called benchmark_exp_return and benchmark_sharpe_ratio.
+
+Find a portfolio that minimizes volatility. Use mean-variance optimization. Store the volatility of the portfolio as a float variable called mv_portfolio_vol. 
+Store the portfolio weights as a pandas Series called mv_portfolio. Use the tickers as index.
+

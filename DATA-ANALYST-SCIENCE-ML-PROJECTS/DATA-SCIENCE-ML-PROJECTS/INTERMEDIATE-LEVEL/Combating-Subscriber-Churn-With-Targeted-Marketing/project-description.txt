@@ -1,0 +1,20 @@
+Leverage machine learning algorithms and models for marketing analytics tasks in a streaming platform.
+
+Project Description
+Get ready to unleash your marketing analytics skills through machine learning models. In this project, you are a machine learning specialist hired by a 
+video streaming platform to build predictive models for subscriber churn and to uncover insightful segmentation among subscribed users.
+
+Project Instructions
+Help AZ Watch improve their marketing strategies by answering the following questions about their subscribers.
+
+What is the predicted subscriber churn for AZ Watch?
+
+Apply the necessary processing steps to prepare the data for modeling.
+Train three standard classification models and save these as model1, model2, and model3.
+Aim to acheive a minimum accuracy of 90% for at least one of the models. Save your best accuracy score as score.
+AZ Watch wants to establish more personalized and targeted campaigns to reduce subscriber churn. What subscriber segments can be identified in the data to make their 
+campaigns more targeted?
+
+Apply a standard clustering method to the numerical features X. Analyze the average values by cluster_id for these numerical features and store them in analysis, 
+rounding values to the nearest whole number.
+

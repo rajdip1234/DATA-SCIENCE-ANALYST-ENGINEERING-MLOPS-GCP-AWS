@@ -1,0 +1,18 @@
+Sometimes, things that once worked perfectly suddenly hit a snag. Practice your knowledge of DataFrames to find the problem and fix it!
+
+Project Description
+Programming is not only about writing code from scratch but also about reading and improving an already written code.
+
+In this project, you will work to fix the start of a sales workflow. You will need to read an already-written code, understand where the problem is, and come up with 
+a solution so things will run smoothly again.
+
+Project Instructions
+.Run the load_and_check() function first. Look for any error messages in the output - these will point you to what needs fixing. You should aim for exactly two success 
+messages: "Data loaded successfully" and "Data integrity check was successful!"
+
+.Review the load_and_check() function code, paying special attention to the two integrity checks:
+The first check validates the column count.
+The second check validates data integrity based on Condition_1 (Total values) and Condition_2 (Tax calculations at 5%)
+Your task is to identify and fix issues within the load_and_check() function itself, not by modifying the raw sales.csv dataset. You are permitted and expected to 
+correct any columns within the function. Ensure the function only returns two success messages when completed.
+

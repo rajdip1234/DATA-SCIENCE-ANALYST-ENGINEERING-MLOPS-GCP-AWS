@@ -1,0 +1,29 @@
+Help the bank monitoring their fraud detection model and figuring out why it's not performing as expected.
+
+Project Description
+Banks are where we safely store and invest money, and they depend on machine learning models to fight fraud every day. However, these models are not perfect and can 
+sometimes fail, putting customers' money at risk.
+
+In this project, you'll be acting as a post-deployment data scientist, helping a major UK bank. You'll be keeping an eye on how their fraud detection model has been 
+doing over time and figuring out why it's not working as it should.
+
+
+Project Instructions
+Use the reference.csv and analysis.csv datasets to monitor a fraud detection model and address the following questions:
+
+Identify the months in which the estimated(expected) and realized(actual) accuracy of the model triggers alerts. Put these months in a list named 
+months_with_performance_alerts, using lowercase and separating the month and year with an underscore. For example: 
+months_with_performance_alerts = ["january_2018", "march_2018"].
+
+Determine the feature that shows the most drift between the reference and analysis sets, thereby impacting the drop in realized accuracy the most. Historically, 
+Poundbank's data science team used the Kolmogorov-Smirnov and Chi-square methods to detect this drift. Store the name of this feature in a variable named 
+highest_correlation_feature.
+
+Look for instances where the monthly average transaction amount differs from the usual, causing an alert. Save this amount in a variable named 
+alert_avg_transaction_amount, ensuring it has a minimum of one decimal place in the results.
+
+Extra task for you to try (this won't be tested):
+
+Use the univariate drift detection method to figure out why the accuracy dropped. Think of a possible explanation. At the end of the project, we'll give you our 
+analysis. Remember, there are no wrong or right answers here.
+

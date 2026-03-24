@@ -1,0 +1,39 @@
+Step into a data engineer's shoes and master data cleaning with PySpark on an e-commerce orders dataset!
+
+Project Description
+Data cleaning is an essential skill for any data professional.
+
+In this project, you will step into a role of a data engineer at an e-commerce company and use PySpark, a powerful tool for data processing, to clean an orders dataset.
+
+This hands-on experience will sharpen your ability to format, extract and amend data for further analysis.
+
+
+Prepare "orders_data.parquet" so that it can be used to build a forecasting model.
+
+Clean the orders dataset as per the requirements specified in the Workbook.
+Save the updated file as orders_data_clean.parquet.
+
+As a Data Engineer at an electronics e-commerce company, Voltmart, you have been requested by a peer Machine Learning team to clean the data containing the 
+information about orders made last year. They are planning to further use this cleaned data to build a demand forecasting model. To achieve this, they have shared 
+their requirements regarding the desired output table format.
+
+An analyst shared a parquet file called `"orders_data.parquet"` for you to clean and preprocess. 
+
+You can see the dataset schema below along with the **cleaning requirements**:
+
+orders_data.parquet
+column	data type	description	cleaning requirements
+order_date	timestamp	Date and time when the order was made	Modify: Remove orders placed between 12am and 5am (inclusive); convert from timestamp to date
+time_of_day	string	Period of the day when the order was made	New column containing (lower bound inclusive, upper bound exclusive): "morning" for orders placed 5-12am, "afternoon" for orders placed 12-6pm, and "evening" for 6-12pm
+order_id	long	Order ID	N/A
+product	string	Name of a product ordered	Remove rows containing "TV" as the company has stopped selling this product; ensure all values are lowercase
+product_ean	double	Product ID	N/A
+category	string	Broader category of a product	Ensure all values are lowercase
+purchase_address	string	Address line where the order was made ("House Street, City, State Zipcode")	N/A
+purchase_state	string	US State of the purchase address	New column containing: the State that the purchase was ordered from
+quantity_ordered	long	Number of product units ordered	N/A
+price_each	double	Price of a product unit	N/A
+cost_price	double	Cost of production per product unit	N/A
+turnover	double	Total amount paid for a product (quantity x price)	N/A
+margin	double	Profit made by selling a product (turnover - cost)	N/A
+

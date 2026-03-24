@@ -1,0 +1,19 @@
+Develop a Wedding management system called Happea(Happily Ever After) to manage wedding invitations and the RSVP of Guests.
+
+Project Description
+Create a Wedding management application, Happea(Happily Ever After). In this project, you will harness the power of Python's OOP inheritance structure to manage 
+weddings and allow invitations to be sent out, manage guest attendance status, and invite plus-ones for special guests.
+
+Project Instructions
+Create Wedding, Invitation, Guest, and SpecialGuest classes based on the implementation requirements outlined in the Workbook.
+
+These classes will handle the management of a wedding guest system, including:
+Managing the wedding guest list and invitations (Wedding)
+Tracking invitation status and responses (Invitation)
+Handling basic guest attendance (Guest)
+Managing special guest privileges like plus-ones (SpecialGuest)
+Some of the implementations are already done for you, but you will need to complete the rest yourself.
+
+The system uses inheritance and object composition to maintain guest lists and track RSVPs. The Wedding class is the central coordinator, using Invitation objects to 
+track guest status. In contrast, the Guest and SpecialGuest classes handle individual guest behaviors, with SpecialGuest extending Guest functionality to include 
+plus-one management.

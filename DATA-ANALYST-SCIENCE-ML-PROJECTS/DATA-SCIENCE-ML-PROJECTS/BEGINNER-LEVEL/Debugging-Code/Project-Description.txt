@@ -1,0 +1,17 @@
+Debug code to improve the accuracy of sales analytics.
+
+Project Description
+Debugging code is an essential skill for a data analyst, encompassing reading error messages and handling exceptions. In this project, you will apply your debugging 
+skills to enhance some code used by a company to analyze sales data. You will need to modify the code to handle exceptions because of missing or incorrect data entries.
+
+Project Instructions
+Your task is to identify errors, add exceptions in the get_quantity_ordered_sum() and get_price_each_average() functions to capture potential errors. Add the correct 
+error checks inside both functions to handle special cases where things might go wrong.
+
+Run the get_quantity_ordered_sum() function with sales_df['quantity_ordered'] as argument. What is the total number of quantities ordered? Store the result as an 
+integer variable called total_quantity_ordered.
+Identify a potential error that might give an incorrect result due to logic or data issues. Modify the function to account for this issue.
+Run the get_price_each_average() function with sales_df['price_each'] as argument.
+Observe the traceback and type of exception raised at runtime.
+Modify the function to effectively work with the data and explicitly raise a TypeError if an incorrect data type is detected.
+Calculate the average of the price_each column. Store the result as a float variable called average_price_each.

@@ -1,0 +1,80 @@
+Analyze clothing reviews on an e-commerce platform to explore different topics and similarities among them.
+Project Description
+In the competitive world of e-commerce, understanding customer feedback is vital for business success. This project focuses on analyzing reviews from the Women's 
+Clothing E-Commerce Reviews dataset. The challenge is to process and analyze text data, categorize feedback into themes, and perform semantic and similarity searches 
+to gain deeper understanding of customer sentiments. The project will provide invaluable skills in data processing, natural language understanding, and leveraging 
+AI for practical business applications.
+
+Create and store the embeddings
+Embed the reviews using a suitable text embedding algorithm and store them as list in the variable embeddings.
+Dimensionality reduction & visualization
+Apply an appropriate dimensionality reduction technique to reduce the embeddings to a 2-dimensional numpy array and store this array in the variable embeddings_2d.
+Then, use this variable to plot a 2D visual representation of the reviews.
+Feedback categorization
+Use your embeddings to identify some reviews that discuss topics such as 'quality', 'fit', 'style', 'comfort', etc.
+Similarity search function
+Write a function that outputs the closest 3 reviews to a given input review, enabling a more personalized customer service response.
+Apply this function to the first review "Absolutely wonderful - silky and sexy and comfortable", and store the output as a list in the variable most_similar_reviews.
+
+Welcome to the world of e-commerce, where customer feedback is a goldmine of insights! In this project, you'll dive into the Women's Clothing E-Commerce Reviews 
+dataset, focusing on the 'Review Text' column filled with direct customer opinions.
+
+Your mission is to use text embeddings and Python to analyze these reviews, uncover underlying themes, and understand customer sentiments. This analysis will help 
+improve customer service and product offerings.
+
+The Data
+You will be working with a dataset specifically focusing on customer reviews. Below is the data dictionary for the relevant field:
+
+womens_clothing_e-commerce_reviews.csv
+Column	Description
+'Review Text'	Textual feedback provided by customers about their shopping experience and product quality.
+Armed with access to powerful embedding API services, you will process the reviews, extract meaningful insights, and present your findings.
+
+Let's get started!
+
+Before you start
+In order to complete the project, you may wish to use the OpenAI API. You can create a developer account with OpenAI and store your API key as an environment variable. Instructions for these steps are outlined below.
+
+Create a developer account with OpenAI
+Go to the API signup page
+(https://auth.openai.com/authorize?issuer=auth0.openai.com&client_id=DRivsnm2Mu42T3KOpqdtwB3NYviHYzwD&audience=https%3A%2F%2Fapi.openai.com%2Fv1&redirect_uri=https%3A%2F%2F
+platform.openai.com%2Fauth%2Fcallback&device_id=0b857af2-01c3-483e-a252-3790495dc54f&screen_hint=signup&max_age=0&scope=openid+profile+email+
+offline_access&response_type=code&response_mode=query&state=R3lIUGpId1VVdXZkeERvVkZiSEduZzZoMVVDMU1Tekd1RjY0ci4tQWMxQw%3D%3D&nonce=
+ek1CR1ZCWlA2V0NxUWdiazBrSXh2ZzlCOV8wNkZ4VGVRN3Y0XzhDMVNFaw%3D%3D&code_challenge=EqdNY7c24GRaTbxJDTIA2mRu14QykuAvmObUR5_LnUY&code_challenge_method=
+S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMjEuMCJ9&flow=control).
+
+Create your account (you'll need to provide your email address and your phone number).
+
+Image from the file system
+Go to the API keys page(https://platform.openai.com/api-keys).
+
+Create a new secret key.
+(The generated key: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)
+Image from the file system
+Take a copy of it. (If you lose it, delete the key and create a new one.)
+Add a payment method
+OpenAI sometimes provides free credits for the API, but it's not clear if that is worldwide or what the conditions are. You may need to add debit/credit card details.
+
+The API costs $0.002 / 1000 tokens(https://openai.com/api/pricing/) for GPT-3.5-turbo. 
+1000 tokens is about 750 words(https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them). 
+This project should cost less than 1 US cents (but if you rerun tasks, you will be charged every time).
+
+Go to the Payment Methods page(https://platform.openai.com/settings/organization/billing/payment-methods).
+
+Click Add payment method.
+
+Image from the file system
+Fill in your card details.
+Add an environmental variable with your OpenAI key
+In Workspace, click on "Environment," in the left sidebar.
+
+Click on the plus button next to "Environment variables" to add environment variables.
+
+In the "Name" field, type "OPENAI_API_KEY". In the "Value" field, paste in your secret key.
+
+Image from the file system
+Click "Create", then you'll see the following pop-up window. Click "Connect," then wait 5-10 seconds for the kernel to restart, or restart it manually in the Run menu.
+Image from the file system
+Load OpenAI API key from environment variables
+These variables can be referenced globally throughout the project while keeping their values secret. Good for setting passwords in credentials.
+

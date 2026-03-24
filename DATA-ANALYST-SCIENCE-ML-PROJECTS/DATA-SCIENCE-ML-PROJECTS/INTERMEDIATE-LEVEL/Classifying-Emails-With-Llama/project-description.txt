@@ -1,0 +1,18 @@
+Build an AI-powered inbox assistant to classify your emails using Llama.
+
+Projec-Description:
+Build an intelligent email assistant using Llama's local LLM capabilities. Using prompt engineering and model integration, develop a system to classify emails into 
+predefined categories to help you prioritize tasks and manage your inbox more efficiently.
+
+
+Project Instructions
+Build an email classification system using Llama to automatically categorize emails.
+
+Initialize the Llama model using the model saved as model.gguf.
+Create a variable prompt containing the prompt asking to classify the emails saved in the data/email_categories_data.csv 
+dataset into the three categories ("Priority", "Updates", or "Promotions").
+Test the model on the first two emails from the dataset, storing the corresponding classification results as strings in 
+two variables named result1 and result2.
+Note: Please make sure to run the first two cells and wait for them to finish, before running the rest of the project and 
+submitting the solution. This will ensure the model is fully downloaded locally.
+

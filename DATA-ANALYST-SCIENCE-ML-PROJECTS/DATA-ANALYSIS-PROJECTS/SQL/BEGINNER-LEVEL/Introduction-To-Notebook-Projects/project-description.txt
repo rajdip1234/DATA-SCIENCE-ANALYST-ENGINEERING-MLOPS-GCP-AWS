@@ -1,0 +1,42 @@
+Get up to speed with notebook based projects. This will prepare you for your first Python, SQL & R projects.
+
+Project Description
+This introductory project will take you through how to work with DataLab notebooks and how to use these to solve DataCamp projects. You will learn about notebooks and 
+cells and how to use these to solve the problems in our Python, SQL & R projects. You'll soon be ready to tackle your first real notebook based project!
+
+Welcome to your first notebook based project!
+
+Projects allow you to practice and apply the skills you've learned in the DataCamp courses. In each project you will need to craft your own solution to a real-world 
+task, using real-world tools and workflows.
+
+The exception is this project, which is just an introduction to the DataCamp notebook project interface.
+
+This project utilizes a data notebook (made by DataLab). Notebooks provide an interactive environment to perform data analysis, machine learning and other 
+computational tasks. There are many notebook providers and getting familiar with them will help you prepare for real work.
+
+Take a look at the provided notebook. It will guide you through using notebooks in DataCamp projects. By the end you’ll be ready for your first real notebook based 
+project. Good luck!
+
+Introducing notebooks
+Notebooks are a widely used industry tool that make it easy to do data work.
+
+A notebook is a document for keeping and running code, including SQL, R & Python. This introductory project will focus on SQL.
+
+Making use of cells
+Notebooks are made up of cells. There are several types of cells, including text, code & SQL cells.
+
+We will focus on SQL and text cells in this introduction.
+
+The text you're reading now is all part of a text cell. We've used it to write this guide for you.
+
+Text cells are used to make the notebook readable, to add explanations, comments and document important details. This makes it easier for other people to read the 
+notebook.
+SQL cells
+As this is a SQL project we'll focus on SQL cells. SQL cells are how you will connect to databases (and sometimes even text files 🤯) to run your SQL code. 
+All the credentials are already set up so you can focus on writing SQL.
+
+sql cell When you run a SQL cell it can return a DataFrame. A DataFrame is like a temporary table holding the results of the SQL query. Each DataFrame has a name, 
+which can be edited. We run tests on the Dataframe to see if your query is correct.
+
+
+

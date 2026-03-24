@@ -1,0 +1,14 @@
+Query the VatComply API to gather exchange rate information and incorporate into a sales orders dataset!
+
+Project Description
+In this project you will work with a public API and a CSV file containing online gadget store sales data.
+
+You'll use your API and data manipulation skills to find and use exchange rate information, performing calculations to convert order values into US dollars.
+
+
+Query the VAT Comply rates API 'https://api.vatcomply.com/rates', using parameters to get the exchange rates for a base currency of 'USD' and the date of '2024-01-21'.
+Using the orders DataFrame and the exchange rate from the API, calculate the total amount sold in USD, saving as a variable called total_usd_sales.
+Ensure the final version of the orders DataFrame matches the requirements detailed in the Workbook.
+*The VAT Comply rates API is free to use and doesn't require registration/authentication.
+
+

@@ -1,0 +1,26 @@
+Transcribe customer support audio calls, evaluate sentiment, search in text and identify common entities to improve customer service!
+
+Project Description
+Prepare to embark on a journey to elevate customer service by analyzing support calls.
+
+Your task is to transcribe customer support audio calls, evaluate customers' sentiment, and uncover common named entities and search most similar context to a 
+query by utilizing open-source packages such as SpeachRecognition and spaCy.
+
+Project Instructions
+The company hired you to help them analyze their customer support calls with the following tasks:
+
+Is the audio compatible for future speech recognition modeling?
+
+Convert sample_customer_call.wav into text and store the result in transcribed_text.
+Find the frame rate and number of channels of this audio and save your answer as two numeric variables: frame_rate, number_channels.
+How many calls have a true positive sentiment?
+
+Perform sentiment analysis on customer_call_transcriptions.csv and find the number of true positive predictions; save an integer value to true_positive.
+Use the compound score in the vader module and threshold values of 0.05 and -0.05 to set a sentiment to positive, neutral or negative.
+What is the most frequently named entity across all of the transcriptions?
+
+Save your answer as a string variable most_freq_ent.
+Which call is the most similar to "wrong package delivery"?
+
+Save your answer as a string variable most_similar_text.
+

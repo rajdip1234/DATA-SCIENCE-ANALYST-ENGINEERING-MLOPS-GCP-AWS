@@ -1,0 +1,8 @@
+Use joining techniques to discover the oldest businesses in the world.
+
+Project Description
+An essential part of business is planning for the future and ensuring that the business survives changing market conditions.
+
+In this project, you'll explore data from BusinessFinancing.co.uk on the world's oldest businesses. You'll use joining and data manipulation techniques to answer 
+questions about these historic businesses.
+

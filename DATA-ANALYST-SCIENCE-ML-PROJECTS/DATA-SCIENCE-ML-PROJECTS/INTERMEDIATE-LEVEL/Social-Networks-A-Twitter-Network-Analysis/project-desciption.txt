@@ -1,0 +1,21 @@
+Analyze Twitter follower data with Python! Use Pandas and NetworkX to build functions, identify influential users, and explore network structures.
+
+Project Description
+Analyze Twitter follower data using Python! In this project, you'll build a set of useful functions using Pandas for data handling and NetworkX for graph analysis. 
+Solve real-world problems like identifying influential users and exploring network structures.
+
+
+Project Instructions
+Using the Twitter dataset, you'll implement several useful functions which will aid in the analysis of Twitter's user-base.
+
+Implement the following functions:
+
+is_following(T, user_id1, user_id2): Returns True if user_id2 is following user_id1, else False.
+
+get_users_following_min_accounts(T, min_following_count): Returns a list of user IDs who are following at least min_following_count accounts.
+
+get_mutual_followees(T, user_id1, user_id2): Returns a list of user ids that user_id1 and user_id2 both follow.
+
+get_most_connected_user(T): Returns the user id of the most connected user (the one with the most followers/followees).
+
+

@@ -1,0 +1,11 @@
+Develop an inventory management system for a retail business using OOP in Python.
+
+Project Description
+Create a robust inventory management system! In this project, you will develop a comprehensive inventory management system for the retail business 
+ShopSmart by applying your knowledge in object-oriented programming in Python. You will build a system that will track stock levels, orders, sales, and deliveries.
+
+Project Instructions
+Create Product and Order classes based on the implementation requirements outlined in the Workbook.
+
+These classes will handle the successful management of a retail inventory system, including the creation, updating, and deletion of products, and the 
+placement of orders.

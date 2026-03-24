@@ -1,0 +1,15 @@
+Dive into the world of banking transactions to uncover hidden anomalies and protect customer confidence. Ready to take on the challenge?
+
+Project Description
+Fraud can cost more than money — it can cost trust. Dive into the world of banking transactions to uncover hidden anomalies, flag suspicious activities, and protect 
+customer confidence. Your insights will make an impact by maintaining security and safeguarding trust. Ready to take on the challenge?
+
+Project Instructions
+Explore the transactions.csv dataset and use your findings to discover the potential for fraud by focusing on anomalies.
+
+Compute an anomaly score for each transaction and add it to the transactions DataFrame in a new column named Anomaly_Score.
+Which transactions are flagged as anomalies? Add a boolean column to the transactions DataFrame named Anomaly where True indicates an anomalous transaction.
+Create a summary of anomalous transactions. Save this as a pandas DataFrame called anomalies_summary, containing the following columns:TransactionID,TransactionAmount,
+TransactionDuration,AccountBalance.
+What is the distribution of TransactionAmount for normal and anomalous transactions? Generate and save a histogram as anomalies_histogram.png that visualizes these 
+two groups with distinct colors. Look for differences in the distribution of transaction amounts between normal and anomalous transactions.

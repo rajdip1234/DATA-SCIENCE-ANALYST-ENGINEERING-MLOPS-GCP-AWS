@@ -1,0 +1,15 @@
+Process insurance claims with a Pinecone vector database and OpenAI embeddings.
+
+Project Description
+Workplace injuries can happen anywhere, from offices to construction sites. In this project, you'll analyze workers' compensation claims data to uncover patterns, 
+identify similar cases, and help insurers improve workplace safety and claims management using OpenAI embeddings, a Pinecone vector database, and data analytics!
+
+Project Instructions:
+Embed and store the insurance_claims_top_100.csv dataset in a Pinecone vector database and use your findings to answer the following questions:
+
+What is the ClaimNumber of the claim that is closest to the example query, "Car accident with rear-end collision"? Store as a string variable called closest_claim_id.
+What is the ClaimDescription of the claim that is closest to the example query? Save as a string variable called closest_claim_description.
+Find the description of the claim most similar to the query "Worker developed carpal tunnel syndrome from repetitive typing" and save it as a string variable called 
+closest_claim_description_carpal_tunnel.
+
+
