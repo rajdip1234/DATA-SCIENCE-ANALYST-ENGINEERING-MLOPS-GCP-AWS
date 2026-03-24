@@ -11,7 +11,7 @@ This repository contains multiple end-to-end projects covering:
 
 ## 🧰 Tech Stack
 
-- Python (Pandas, NumPy, Scikit-learn)
+- Python (Pandas, NumPy, Scikit-learn,Pytorch,Tensorflow,XGBoost,LightGBM and so on)
 - SQL
 - Jupyter Notebook
 - Git & GitHub Actions
