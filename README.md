@@ -5,7 +5,7 @@ This repository contains multiple end-to-end projects covering:
 - Data Analysis & Visualization
 - Data Science & Machine Learning
 - Data Engineering Pipelines
-- DevOps / MLOps Workflows
+- DevOps / MLOps Workflows 
 
 ---
 
